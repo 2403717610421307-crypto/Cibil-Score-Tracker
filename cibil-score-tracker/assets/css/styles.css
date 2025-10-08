@@ -1,0 +1,47 @@
+/* Glassmorphism effect for cards */
+.bg-glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Custom hover animations */
+.card-hover:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Input focus styles */
+input:focus {
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+
+/* Button animations */
+button {
+    transition: all 0.3s ease;
+}
+
+/* Table row hover */
+tr:hover {
+    background-color: rgba(99, 102, 241, 0.1);
+}
+
+/* Custom progress bar */
+progress::-webkit-progress-bar {
+    background-color: #e0e7ff;
+    border-radius: 4px;
+}
+progress::-webkit-progress-value {
+    background-color: #4f46e5;
+    border-radius: 4px;
+}
+progress::-moz-progress-bar {
+    background-color: #4f46e5;
+    border-radius: 4px;
+}
+
+/* Existing styles remain */
+/* Add error styles */
+.border-red-500 {
+    border-color: #ef4444;
+}
